@@ -1,0 +1,36 @@
+body {
+    background-color: #212529;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p {
+    color: #dee2e6;
+}
+
+.card-header, .card-footer {
+    background-color: #272b30;
+}
+
+.card-body {
+    background-color: #212529;
+}
+
+table, th, td {
+    color: #dee2e6;
+    border: 1px solid white;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    border: 1px solid white;
+    border-width: 8px !important;
+}
+
+input {
+    text-align: center;
+}
