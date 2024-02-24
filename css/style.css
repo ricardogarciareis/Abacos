@@ -34,3 +34,8 @@ table {
 input {
     text-align: center;
 }
+
+td, th {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
