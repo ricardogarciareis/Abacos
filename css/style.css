@@ -1,6 +1,6 @@
 body {
     background-color: #212529;
-    
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,11 +31,34 @@ table {
     border-width: 8px !important;
 }
 
-input {
+.form-check-input {
     text-align: center;
 }
 
 td, th {
     padding-left: 0px !important;
     padding-right: 0px !important;
+}
+
+#adicao th, td {
+    color: #dee2e6 !important;
+    text-align: center;
+}
+
+#adicao {
+    color: #dee2e6;
+    table-layout: fixed;
+    border: none;
+    border-width: 8px !important;
+}
+
+#vazioParcela1, #vazioParcela2, 
+#dezenasParcela1, #dezenasParcela2, 
+#unidadesParcela1, #unidadesParcela2,
+#centenasResultado, #dezenasResultado, #unidadesResultado {
+    border-style: none;
+}
+
+#centenasResultado, #dezenasResultado, #unidadesResultado {
+    border-top-style: solid;
 }
