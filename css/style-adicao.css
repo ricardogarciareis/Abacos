@@ -1,0 +1,56 @@
+body {
+    background-color: #212529;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p {
+    color: #dee2e6;
+}
+
+.card-header, .card-footer {
+    background-color: #272b30;
+}
+
+.card-body {
+    background-color: #212529;
+}
+
+td, th {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.form-floating {
+    color: #272b30;
+}
+
+#gerarParcela1, #gerarParcela2 {
+    height: 58px;
+}
+
+#adicao th, td {
+    color: #dee2e6 !important;
+    text-align: center;
+}
+
+#adicao {
+    color: #dee2e6;
+    table-layout: fixed;
+    border: none;
+    border-width: 8px !important;
+}
+
+#vazioParcela1, #vazioParcela2, 
+#dezenasParcela1, #dezenasParcela2, 
+#unidadesParcela1, #unidadesParcela2,
+#centenasResultado, #dezenasResultado, #unidadesResultado {
+    border-style: none;
+}
+
+#centenasResultado, #dezenasResultado, #unidadesResultado {
+    border-top: 1px solid white;
+}
