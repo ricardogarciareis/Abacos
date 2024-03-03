@@ -144,6 +144,7 @@ function avaliarLimites() {
 }
 
 function limpar() {
+    limparResultado();
     document.getElementById("minParcela1").value = 0;
     document.getElementById("maxParcela1").value = 99;
     document.getElementById("parcela1").value = 0;
@@ -151,6 +152,10 @@ function limpar() {
     document.getElementById("maxParcela2").value = 99;
     document.getElementById("parcela2").value = 0;
     document.getElementById("unidadesParcela1").innerText = 0;
+    document.getElementById("dezenasParcela1").innerText = "";
+    document.getElementById("vazioParcela1").innerText = "";
     document.getElementById("unidadesParcela2").innerText = 0;
     document.getElementById("dezenasParcela2").innerText = "+";
+    document.getElementById("vazioParcela2").innerText = "";
+
 }
